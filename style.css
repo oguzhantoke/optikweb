@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* BANNER ALANI */
+.banner{
+
+    width: 100%;
+    background-color: rgb(58, 95, 93);
+    border-bottom: 1px solid gray;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.banner .iletisim{
+    display: flex
+}
+.iletisim div{
+    margin: 10px;
+    color: white;
+}
+.iletisim div a{
+    text-decoration: none;
+    color: white;
+}
+.banner i{
+    margin: 5px;
+}
+.iletisim  a,div:hover{
+    color: black;
+
+}
+/* MENU ALANI */
+.menu{
+    background-color:rgb(57, 105, 104) ;
+    display: flex;
+    justify-content: center;
+    opacity: 0.9;
+    width: 100%;
+    /* position:fixed;
+    top: 0; */
+ 
+}
+.menu a{
+    padding: 10px;
+    margin-right: 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 29px;
+    display: flex;
+    transition:500ms color;
+
+}
+.menu i{
+    padding-right: 3px;
+}
+.menu a:hover{
+    color: black;
+    background: rgb(0, 0, 0, 0.1);
+
+}
+
+/* GALERİ ALANI */
+body .galeri {
+    background: url("/img/optik3.jpg");
+    width: 100%;
+    margin: 0 auto;
+    height: 400px;
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    background-size:cover;
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-position:top;  
+    border-bottom: 1px solid gray; 
+}
+.galeri .fototext{
+    font-family:cursive;
+    font-style:oblique;
+    margin-left: 8%;
+    margin-top: -5%;
+    font-size: 65px;
+    width: 350px;
+    color: white; 
+    box-sizing: border-box;
+
+}
+.urunler{
+    display: flex;
+    width:100%;
+    padding-top: 10px;
+    text-align: center;
+    justify-content: center;
+    background:rgb(57, 105, 104, 0.2) ;
+}
+
+.urunler img{
+    border-radius: 50px;
+    transition: 0.7s;
+}
+.urunler h3{
+    padding: 10px;
+}
+.urunler .urun{
+    width: 20%;
+    padding: 25px;
+    margin: 20px;
+    border-radius: 10px;
+    transition: 0.5s;
+
+}
+.urunler .urun:hover{
+    background:rgb(57, 105, 104, 0.2) ;
+}
+.urunler .urun:hover img{
+    width:100%;
+    height: auto;
+    border-radius: 0;
+    transition: 0.5s;
+    margin: 0px;
+}
+.urun:hover .urunler{
+    padding: 0px;
+    margin: 0;
+}
+.urunler .urun_c{
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    border-radius: 0px;
+}
+
+
+
+.fouter{
+    margin: 0 auto;
+    width: 100px;
+}
