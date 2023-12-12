@@ -66,7 +66,7 @@
 
 /* GALERİ ALANI */
 body .galeri {
-    background: url("/img/optik3.jpg");
+    background: url("img/optik3.jpg");
     width: 100%;
     margin: 0 auto;
     height: 400px;
